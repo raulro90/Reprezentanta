@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Magazin de telefoane</title>
+  <link rel="stylesheet" href="contact.css">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init({
+             publicKey: "WqXwdMR_OYsBR6XRF",
+           });
+        })();
+     </script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <div class="continerNavigatie">
+    <div class="meniu">
+      <li>
+        <a href="../index.html">acasa </a>
+      </li>
+      <li>
+        <a href="../catalog.html">catalog </a>
+      </li>
+      <li>
+        <a href="contact.html">contact </a>
+      </li>
+      <div class="linie">
+        
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron">
+    <div class="container" style="text-shadow: 2px 2px black;">
+        <h1 style="font-weight:100; text-align: center; margin-top: 10px;">Asa ne poti contacta:</h1>
+        <div class="continer">
+          <div class="row">
+            <div class="col">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1217.4304887503338!2d-97.69454265360218!3d30.33919852947142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644c9865f728781%3A0xcd9b7f56ef17cfc6!2sNorwood%20Park%20Blvd%2C%20Austin%2C%20TX%2078753%2C%20Statele%20Unite%20ale%20Americii!5e0!3m2!1sro!2sro!4v1710063633559!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col">
+              <h3>
+                adresa noastra:
+              </h3>
+              <h5>
+                strada: 1013 Norwood Park Blvd, Austin Texas
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="form-group">
+            <label for="inputName">Nume:</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Introdu numele">
+        </div>
+
+        <div class="form-group">
+            <label for="inputEmail">Email:</label>
+            <input type="text" class="form-control" id="inputEmail" placeholder="Introdu email-ul">
+        </div>
+
+        <div class="form-group">
+            <label for="inputSubiect">Subiect:</label>
+            <textarea class="form-control" id="inputSubiect" rows="5"></textarea>
+        </div>
+        <button type="button" onClick="trimiteEmail()" class="btn btn-primary">SEND</button>
+    </div>
+
+  </div>
+    <script src="contact.js"></script>
+    <script src="https://kit.fontawesome.com/1688dd19e4.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+.continerNavigatie {
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-color: bisque;
+    -webkit-box-shadow: 15px 45px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 45px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 45px 20px 0px rgba(0,0,0,0.75);
+}
+.continerNavigatie .meniu{
+    display: flex;
+    position: relative;
+}
+
+.continerNavigatie .meniu li{
+    list-style: none;
+    font-size: 28px;
+    flex: 1;
+    padding: 25px;
+}
+
+.continerNavigatie .meniu li a{
+color: rgb( 52, 50, 50);
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.continerNavigatie .meniu li:hover a{
+color:rgb(245, 233, 233);
+
+}
+
+.continerNavigatie .meniu .linie{
+    height: 5px;
+    width: 40%;
+    background-color: rgb(101, 32, 32);
+    left: 30%;
+    bottom: 0;
+    position: absolute;
+}
+.continerNavigatie .meniu li:nth-child(1):hover ~ .linie{
+    left: 0%;
+}
+.continerNavigatie .meniu li:nth-child(3):hover ~ .linie{
+    left: 60%;
+}
+
+.card{
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px 0 #d4d4d5;
+}
+#container-rezultate{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.continer-cautare{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+input{
+    background-color: beige;
+    padding: 15px 40px 15px 20px;
+    width:200px;
+    border:solid 2px red;
+    /* border:none; */
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;    
+    transition: width 0.4s ease;
+}
+input:focus{
+    width: 300px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: chocolate;
+}
+::-webkit-scrollbar-track{
+    background-color: antiquewhite;
+}
+
+

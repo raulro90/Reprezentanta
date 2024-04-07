@@ -1,0 +1,27 @@
+{
+"masini":[
+    {
+        "cai": 370,
+        "descriere":"Descriere",
+        "marca":"BMW",
+        "nume": "BMW i8",
+        "pret": "150000",
+        "poza": "https://cdn.drivek.it/configurator-covermobile/cars/gb/500/BMW/I8/6626_COUPE-2-DOORS/bmw-i8.jpg"
+    }, {
+        "cai": 370,
+        "descriere":"Descriere",
+        "marca":"Ferrari",
+        "nume": "Ferrari f8 tributo",
+        "pret": "150000",
+        "poza": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b4c3d4a-dfd8-4d77-81e0-2fc7b11c046d/dd2ezz8-1a74b81a-ef35-45ed-b48a-54e5117527ca.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViNGMzZDRhLWRmZDgtNGQ3Ny04MWUwLTJmYzdiMTFjMDQ2ZFwvZGQyZXp6OC0xYTc0YjgxYS1lZjM1LTQ1ZWQtYjQ4YS01NGU1MTE3NTI3Y2EuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OwM4q1HMS2XnvRT3aT9VCm_QKexAtvdeaZEk6QBS7UU"
+    }, 
+{
+        "cai": 370,
+        "descriere":"Descriere",
+        "marca":"Ferrari",
+        "nume": "Ferrari f40 compartizone",
+        "pret": "150000",
+        "poza": "https://cdn.drivek.it/configurator-covermobile/cars/gb/500/BMW/I8/6626_COUPE-2-DOORS/bmw-i8.jpg"
+    }
+    ]
+}

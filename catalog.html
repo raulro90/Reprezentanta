@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Magazin de telefoane</title>
+  <script src ="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+  <link rel="stylesheet" href="catalog.css">
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyD6n_z-wHhuGZ24uq-De_JJY357T7F2vl8",
+      authDomain: "dtbr.firebaseapp.com",
+      databaseURL: "https://dtbr-a3f0e-default-rtdb.europe-west1.firebasedatabase.app/",
+      projectId: "dtbr",
+      storageBucket: "dtbr.appspot.com",
+      messagingSenderId: "786912566289",
+      appId: "1:786912566289:web:2ded4bc4eff7be1b31a5b0"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+ 
+</head>
+
+<body>
+
+  <div class="continerNavigatie">
+    <div class="meniu">
+      <li>
+        <a href="../index.html">acasa </a>
+      </li>
+      <li>
+        <a href="catalog.html">catalog </a>
+      </li>
+      <li>
+        <a href="../contact.html">contact </a>
+      </li>
+      <div class="linie">
+        
+      </div>
+    </div>
+  </div>
+  
+</body>
+<div class="continer-cautare">
+  <input type="text" id="bara-cautare" placeholder="cauta...">
+</div>
+
+<div id="container-rezultate" class="container"></div>
+
+<script type="module" src="catalog.js"></script>
+</html>

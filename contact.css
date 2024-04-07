@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+.continerNavigatie {
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-color: bisque;
+    -webkit-box-shadow: 15px 45px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 45px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 45px 20px 0px rgba(0,0,0,0.75);
+}
+.continerNavigatie .meniu{
+    display: flex;
+    position: relative;
+}
+
+.continerNavigatie .meniu li{
+    list-style: none;
+    font-size: 28px;
+    flex: 1;
+    padding: 25px;
+}
+
+.continerNavigatie .meniu li a{
+color: rgb( 52, 50, 50);
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.continerNavigatie .meniu li:hover a{
+color:rgb(245, 233, 233);
+
+}
+
+
+.continerNavigatie .meniu .linie{
+    height: 5px;
+    width: 40%;
+    background-color: rgb(101, 32, 32);
+    left: 60%;
+    bottom: 0;
+    position: absolute;
+}
+.continerNavigatie .meniu li:nth-child(2):hover ~ .linie{
+    left: 30%;
+}
+.continerNavigatie .meniu li:nth-child(3):hover ~ .linie{
+    left: 60%;
+}
+.jumbotron .masina{
+    width:100px;
+    height:100px;
+}
+.jumbotron{
+    color: white;
+    background: linear-gradient(to top right,  rgba(5,2,66,1), rgba(242,59,38,1))
+}
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: chocolate;
+}
+::-webkit-scrollbar-track{
+    background-color: antiquewhite;
+}

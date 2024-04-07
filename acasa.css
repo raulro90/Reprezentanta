@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+.continerNavigatie {
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-color: bisque;
+    -webkit-box-shadow: 15px 45px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 45px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 45px 20px 0px rgba(0,0,0,0.75);
+}
+.continerNavigatie .meniu{
+    display: flex;
+    position: relative;
+}
+
+.continerNavigatie .meniu li{
+    list-style: none;
+    font-size: 28px;
+    flex: 1;
+    padding: 25px;
+}
+
+.continerNavigatie .meniu li a{
+color: rgb( 52, 50, 50);
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.continerNavigatie .meniu li:hover a{
+color:rgb(245, 233, 233);
+
+}
+
+.continerNavigatie .meniu .linie{
+    height: 5px;
+    width: 40%;
+    background-color: rgb(101, 32, 32);
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.continerNavigatie .meniu li:nth-child(2):hover ~ .linie{
+    left: 30%;
+}
+.continerNavigatie .meniu li:nth-child(3):hover ~ .linie{
+    left: 60%;
+
+}
+.jumbotron{
+    height: 700px; /*inaltimea pozei*/
+    background: linear-gradient(rgba(240, 138, 70, 0.25),rgba(230, 71, 54, 0.40)),
+                url(https://source.unsplash.com/black-ford-mustang-gt-N9Pf2J656aQ);
+
+     background-size: cover;
+     background-repeat: no-repeat; 
+     color:white;
+     text-align: center;
+     text-shadow: 2px 2px black;          
+
+}
+@-webkit-keyframes culoare-masina{
+    0%, 100% { -webkit-filter: invert(20%) sepia(70%) saturate(3300%) hue-rotate(350deg) brightness(130%) contrast(100%);}
+    50%{ -webkit-filter: invert(100%) sepia(10%) saturate(500%) hue-rotate(220deg) brightness(100%) contrast(80%);}
+}
+.jumbotron .masina{
+    width:100px;
+    height:100px;
+
+    -webkit-animation: culoare-masina 3s infinite;
+}
+.continut-text{
+    margin: 5% 10%
+}
+.sectiune-carduri{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sectiune-carduri h1{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.lista_carduri{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.element_card{
+    display:flex;
+    padding:16px;
+    max-width: 50% ;
+}
+.sectiune-carduri img{
+    max-width: 100%;
+    height: auto;
+}
+
+.sectiune-carduri .card{
+    box-shadow: 0 20px 40px -15px rgb(8, 2, 2);
+}
+.sectiune-carduri .btn {
+    padding: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    background: transparent;
+   border: 1px solid black;
+}
+.continut_card{
+    padding: 16px;
+    background: linear-gradient(to bottom left, #759cbe, rgb(173, 220, 232));
+}
+.titlu_card{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.text_card{
+    color: white;
+    font-size: 14px;
+    margin-bottom:18px ;
+    font-weight: 400;
+}
+
+.sectiune-carduri .btn:hover{
+    background-color: white;
+    color: rgb(91, 84, 216);
+}
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: chocolate;
+}
+::-webkit-scrollbar-track{
+    background-color: antiquewhite;
+}
